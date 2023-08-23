@@ -1,0 +1,32 @@
+.course-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid green;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.course-card__info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.course-card__details {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.course-card__button {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.course-card__details div {
+    margin: .25rem 0;
+}
+.course-card__details div:last-child {
+    margin-top: 1.5rem;
+}

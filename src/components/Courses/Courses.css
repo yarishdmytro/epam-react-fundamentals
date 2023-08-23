@@ -1,0 +1,10 @@
+.courses {
+    border: 1px solid deepskyblue;
+    padding: 2rem;
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
